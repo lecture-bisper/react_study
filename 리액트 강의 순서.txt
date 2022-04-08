@@ -1,0 +1,41 @@
+1. 리액트란?
+1.1 리액트의 장점
+
+2. webpack이란?
+
+3. node.js란?
+
+4. 리액트 개발환경 구성하기
+4.1 nvm 설치
+  - nvm windows 설치
+  - https://github.com/coreybutler/nvm-windows
+  - nvm 기본 사용법
+    - nvm install [버전]
+    - nvm uninstall [버전]
+    - nvm list
+    - nvm use [버전]
+4.2 node.js 설치
+  - nvm을 이용한 node.js 설치
+    - nvm list
+    - nvm install [lts]
+  - nvm을 이용한 버전 변경
+    - nvm list
+    - nvm use [lts]
+  - node.js 및 npm 버전 확인
+    - node --version
+    - npm --version
+4.3 yarn 설치
+  - yarn 이란?
+    - npm과 같은 패키지 매니저
+  - npm을 이용한 yarn 설치
+    - npm install -g yarn
+  - create-react-app 설치
+    - yarn global add create-react-app
+4.4 리액트 프로젝트 생성
+  - create-react-app [폴더명]
+  - yarn create react-app [폴더명]
+4.5 리액트 프로그램 동작
+  - cd [폴더명]
+  - yarn start
+4.6 package.json 파일 수정하기
+
