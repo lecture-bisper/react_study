@@ -37,5 +37,22 @@
 4.5 리액트 프로그램 동작
   - cd [폴더명]
   - yarn start
+  - 웹 화면 확인
 4.6 package.json 파일 수정하기
-
+  - package.json 파일 제공
+  - yarn
+  - yarn start
+  - 웹 화면 확인
+4.7 vscode 플러그인 추가
+  - ES7 + React/Redux/React-Native 설치
+  - Prettier 설치
+    - .prettierrc 파일 생성
+    - 아래 내용 추가
+      "useTabs": false, // 탭 사용 시 공백문자로 사용
+      "printWidth": 100, // 가로 너비 100칸
+      "tabWidth": 2, // 탭 크기를 공백 2칸으로 설정
+      "trailingComma": "all", // 나열 항목 사용 시 마지막에 늘 쉼표 사용
+      "semi": true, // 실행 줄 마지막에 항상 세미콜론 붙임
+      "singleQuote": true // 따옴표를 모두 작은 따옴표로 변경
+  - 쉬프트 + 컨트롤 + P 나 F1 누르고 format 키워드 입력 > Format Document 명령어 실행
+  - 설정에서 formatOnSave 검색, 체크박스에 체크
