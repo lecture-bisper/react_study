@@ -56,3 +56,18 @@
       "singleQuote": true // 따옴표를 모두 작은 따옴표로 변경
   - 쉬프트 + 컨트롤 + P 나 F1 누르고 format 키워드 입력 > Format Document 명령어 실행
   - 설정에서 formatOnSave 검색, 체크박스에 체크
+4.8 App.css 및 App.js를 수정하여 다른 화면에 출력
+  - App.css에 .title 추가
+    - font-style: italic
+  - App.js
+    - <h1 className="title">리액트 시작하기</h1> 추가
+
+5. ES6 문법
+  - 템플릿 문자열
+  - 전개 연산자
+  - 가변 변수, 불변 변수 (let, const)
+  - 클래스
+  - 화살표 함수
+  - 객체 확장 표현식, 구조 분해 할당
+  - 라이브러리 의존성 (import)
+  - 배열함수 (forEach, map, reduce)
